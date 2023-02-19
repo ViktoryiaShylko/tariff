@@ -1,0 +1,50 @@
+.card {
+    width: 24.9%;  
+}
+.card__header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.card__info {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.card__price {
+    margin-bottom: 70px;
+}
+.card__rate {
+    font-size: 60px;
+}
+.card__period{
+    margin-top: 50px;
+}
+
+.card__speed {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    color: rgb(57, 57, 57);
+}
+
+.card__footer {
+    height: 80px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    color: rgb(57, 57, 57);
+}
