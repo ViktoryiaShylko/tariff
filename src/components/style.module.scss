@@ -1,6 +1,33 @@
 .card {
-    width: 24.9%;  
-    background-color: rgb(100, 148, 131);
+    width: 24.9%;
+}
+.selected {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scaleY(1.1);
+  }
+.blue-header {
+    background-color:rgb(40, 142, 173);
+}
+.blue-info {
+    background-color: rgba(40, 142, 173, 0.9);
+}
+.red-header {
+    background-color:rgb(184, 59, 59);
+}
+.red-info {
+    background-color: rgba(184, 59, 59, 0.9);
+}
+.gray-header {
+    background-color:rgb(56, 54, 54);
+}
+.gray-info {
+    background-color: rgba(56, 54, 54, 0.9);
+}
+.green-header {
+    background-color:rgb(40, 163, 122);
+}
+.green-info {
+    background-color: rgba(40, 163, 122, 0.9);
 }
 .card__header {
     height: 70px;
@@ -21,10 +48,10 @@
     
 }
 
-.card__price {
+.card__currency {
     margin-bottom: 70px;
 }
-.card__rate {
+.card__price {
     font-size: 60px;
 }
 .card__period{
